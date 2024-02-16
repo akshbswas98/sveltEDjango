@@ -1,10 +1,15 @@
 <script>
-    let film = 'The Usual Suspects'
+    let films = [
+        { id: 1, name: 'The Godfather', director: 'William da'},
+        { id: 1, name: 'Leon the Professional', director: 'Micheal da'}
+    ]
 </script>
-<!-- <h1>{film.toUpperCase()}</h1> -->
 
-{#if film.startsWith('T')}
-    <p>Starts with 'T'</p>
-{:else}
-    <p>Doesn't starts with 'T'</p>
-{/if}
+<ul>
+    {#each films as film}
+        <li>
+            <a href="films/{film.id}">{film.name}</a>
+        </li>
+    {/each}
+
+    </ul>

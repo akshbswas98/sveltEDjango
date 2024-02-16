@@ -40,7 +40,7 @@ declare module '$env/static/private' {
 	export const configsetroot: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const EFC_5336: string;
+	export const EFC_10584: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const GIT_ASKPASS: string;
@@ -81,6 +81,7 @@ declare module '$env/static/private' {
 	export const NVTOOLSEXT_PATH: string;
 	export const OneDrive: string;
 	export const OneDriveConsumer: string;
+	export const OPENAI_API_KEY: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const OS: string;
 	export const Path: string;
@@ -156,7 +157,7 @@ declare module '$env/dynamic/private' {
 		configsetroot: string;
 		DriverData: string;
 		EDITOR: string;
-		EFC_5336: string;
+		EFC_10584: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
 		FPS_BROWSER_USER_PROFILE_STRING: string;
 		GIT_ASKPASS: string;
@@ -197,6 +198,7 @@ declare module '$env/dynamic/private' {
 		NVTOOLSEXT_PATH: string;
 		OneDrive: string;
 		OneDriveConsumer: string;
+		OPENAI_API_KEY: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		OS: string;
 		Path: string;
